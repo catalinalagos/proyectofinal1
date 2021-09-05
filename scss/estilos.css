@@ -350,7 +350,6 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-color: #bc9797;
 }
 
 .bloque-inicial .sobre-mi__contenido {
@@ -365,7 +364,6 @@ footer {
 
 .bloque-inicial .celda__imagen {
   width: 450px;
-  background-color: cornflowerblue;
   padding-right: 40px;
 }
 
@@ -390,7 +388,6 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #43439b;
 }
 
 .sobre-mi__extras .sobre-mi__links, .sobre-mi__extras .sobre-mi__herramientas, .sobre-mi__extras .sobre-mi__contacto {
@@ -401,7 +398,6 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: darkgrey;
   width: 30%;
 }
 
