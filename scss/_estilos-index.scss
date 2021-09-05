@@ -1,0 +1,146 @@
+// Variables
+$f-principal:'Roboto', sans-serif;
+$f-especial:'David Libre', serif;
+$principal:#463F3A;
+$secundario: #8A817C;
+$terciario:#BCB8B1;
+$acento:#E0AFA0;
+$fondo:#F4F3EE;
+
+// HEADER
+.header__logo{
+    font-size: 21px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: 100%px;
+    justify-content: space-between;
+    li{
+        padding-top: 20px;
+        list-style: none;
+        padding-left: 50px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
+// TITULOS
+.hero__intro{
+    font-family: $f-especial;
+    font-size: 72px;
+}
+.casos__titulo, .metodologia__titulo{
+    font-family: $f-especial;
+    font-size: 64px;
+}
+
+//HERO
+.hero{
+    height: 70vh;
+    margin-top: 0px;
+    padding-top: 25%;
+    display: flex;
+    flex-direction: column;
+    .hero__intro{
+        margin:0px;
+    }
+    .hero__detalle{
+        margin: 0;
+        max-width: 480px;
+    }
+    .hero__rrss{
+        margin-top: 3%;
+        margin-bottom: 15%;
+       
+    }
+    .hero__extras{
+        text-align:right;
+        .hero__flecha{
+            transform: rotate(90deg);
+        }
+    }
+}
+
+
+// CASOS DE ESTUDIO
+.casos__galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+}
+.casos__card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    box-shadow: 1px 3px 10px #BCB8B140;
+    border-radius: 10px;
+    .card__titulo{
+        font-size: 24px;
+        margin: 0   5px   5px   5px;
+        text-align: center;
+    }
+    .card__detalle{
+        margin: 0   6px   10px     6px;
+        text-align: center;
+    }
+    .card__boton{
+        text-align: center;
+        background-color: $terciario;
+        border-radius: 20px;
+        padding:10px 0 10px 0;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        color: $fondo;
+    }
+    .card__boton:hover{
+        background-color: $secundario;
+    }
+}
+.cta__proyectos{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    .cta__boton{
+        background-color: $secundario;
+        padding:10px 100px 10px 100px;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px;
+        font-weight: 500;
+        color: $fondo;
+    }
+    .cta__boton:hover{
+        background-color: $principal;
+    }
+}
+
+.metodologia{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    .metodologia__titulo{
+        margin: 0px;
+    }
+    .metodologia__detalle{
+        max-width: 600px;
+    }
+    .botonPiola{
+        color: $acento;
+    }
+    .botonPiola:hover{
+        color:$terciario;
+    }
+}

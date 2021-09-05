@@ -1,0 +1,477 @@
+.header__logo {
+  font-size: 21px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu li {
+  padding-top: 20px;
+  list-style: none;
+  padding-left: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.hero__intro {
+  font-family: "David Libre", serif;
+  font-size: 72px;
+}
+
+.casos__titulo, .metodologia__titulo {
+  font-family: "David Libre", serif;
+  font-size: 64px;
+}
+
+.hero {
+  height: 70vh;
+  margin-top: 0px;
+  padding-top: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero .hero__intro {
+  margin: 0px;
+}
+
+.hero .hero__detalle {
+  margin: 0;
+  max-width: 480px;
+}
+
+.hero .hero__rrss {
+  margin-top: 3%;
+  margin-bottom: 15%;
+}
+
+.hero .hero__extras {
+  text-align: right;
+}
+
+.hero .hero__extras .hero__flecha {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.casos__galeria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.casos__card {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px;
+  -webkit-box-shadow: 1px 3px 10px #BCB8B140;
+          box-shadow: 1px 3px 10px #BCB8B140;
+  border-radius: 10px;
+}
+
+.casos__card .card__titulo {
+  font-size: 24px;
+  margin: 0   5px   5px   5px;
+  text-align: center;
+}
+
+.casos__card .card__detalle {
+  margin: 0   6px   10px     6px;
+  text-align: center;
+}
+
+.casos__card .card__boton {
+  text-align: center;
+  background-color: #BCB8B1;
+  border-radius: 20px;
+  padding: 10px 0 10px 0;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  color: #F4F3EE;
+}
+
+.casos__card .card__boton:hover {
+  background-color: #8A817C;
+}
+
+.cta__proyectos {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+.cta__proyectos .cta__boton {
+  background-color: #8A817C;
+  padding: 10px 100px 10px 100px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #F4F3EE;
+}
+
+.cta__proyectos .cta__boton:hover {
+  background-color: #463F3A;
+}
+
+.metodologia {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.metodologia .metodologia__titulo {
+  margin: 0px;
+}
+
+.metodologia .metodologia__detalle {
+  max-width: 600px;
+}
+
+.metodologia .botonPiola {
+  color: #E0AFA0;
+}
+
+.metodologia .botonPiola:hover {
+  color: #BCB8B1;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    width: 100%;
+    margin: 0;
+  }
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  header .header__logo {
+    display: block;
+    text-align: center;
+  }
+  header .menu {
+    width: 100%;
+    padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  header .menu li {
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 0px;
+    font-size: 16px;
+  }
+  header .menu li a {
+    color: #E0AFA0;
+  }
+  .hero {
+    margin-left: 5%;
+    margin-right: 2%;
+    height: 65vh;
+  }
+  .hero .hero__intro {
+    font-size: 48px;
+  }
+  .hero .hero__detalle {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 400px;
+  }
+  .casos__titulo, .metodologia__titulo {
+    font-family: "David Libre", serif;
+    font-size: 42px;
+  }
+  .casos {
+    margin-left: 5%;
+    margin-right: 2%;
+  }
+  .metodologia {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  footer {
+    margin-left: 5%;
+    margin-bottom: 30px;
+  }
+}
+
+.hero__rrss a img,
+.footer__rrss a img,
+.icon-menu {
+  width: 30px;
+  padding-right: 20px;
+}
+
+.hero__flecha {
+  width: 30px;
+}
+
+.card__img {
+  width: 300px;
+  border-radius: 10px 10px 0 0;
+  -webkit-box-shadow: 2px 1px 2px #BCB8B130;
+          box-shadow: 2px 1px 2px #BCB8B130;
+}
+
+.sobre-mi__imagen {
+  max-width: 100%;
+}
+
+.proyectos__titulo {
+  font-family: "David Libre", serif;
+  font-size: 64px;
+}
+
+.proyectos__galeria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.proyectos__galeria .proyectos__card {
+  width: 300px;
+  margin: 10px 10px 50px 10px;
+}
+
+.proyectos__galeria .proyectos__card .proyectos__card__imagen {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.proyectos__galeria .proyectos__card .proyectos__card__titulo {
+  font-size: 24px;
+  margin: 0   5px   5px   5px;
+  text-align: center;
+}
+
+.proyectos__galeria .proyectos__card .proyectos__card__detalle {
+  margin: 0   8px   10px     8px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .proyectos__titulo {
+    margin-left: 5%;
+    font-family: "David Libre", serif;
+    font-size: 42px;
+  }
+}
+
+.bloque-inicial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #bc9797;
+}
+
+.bloque-inicial .sobre-mi__contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bloque-inicial .celda__imagen {
+  width: 450px;
+  background-color: cornflowerblue;
+  padding-right: 40px;
+}
+
+.bloque-inicial .sobre-mi__titulo {
+  font-family: "David Libre", serif;
+  font-size: 64px;
+  margin: 0px;
+}
+
+.bloque-inicial .sobre-mi__detalles {
+  max-width: 400px;
+}
+
+.sobre-mi__extras {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #43439b;
+}
+
+.sobre-mi__extras .sobre-mi__links, .sobre-mi__extras .sobre-mi__herramientas, .sobre-mi__extras .sobre-mi__contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: darkgrey;
+  width: 30%;
+}
+
+.sobre-mi__extras .sobre-mi__links li, .sobre-mi__extras .sobre-mi__herramientas li, .sobre-mi__extras .sobre-mi__contacto li {
+  list-style: none;
+}
+
+.sobre-mi__extras__titulo {
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    width: 100vw;
+  }
+  .bloque-inicial {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    background-color: #bc9797;
+  }
+  .bloque-inicial .sobre-mi__contenido {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bloque-inicial .celda__imagen {
+    width: 450px;
+    background-color: cornflowerblue;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bloque-inicial .sobre-mi__titulo {
+    font-family: "David Libre", serif;
+    font-size: 42px;
+    margin: 0px;
+  }
+  .bloque-inicial .sobre-mi__detalles {
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+body {
+  color: #463F3A;
+  background-color: #F4F3EE;
+  max-width: 960px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #463F3A;
+}
+/*# sourceMappingURL=estilos.css.map */

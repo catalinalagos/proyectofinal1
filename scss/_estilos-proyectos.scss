@@ -1,0 +1,31 @@
+.proyectos__titulo{
+    font-family: $f-especial;
+    font-size: 64px;
+}
+.proyectos__galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    .proyectos__card{
+        width: 300px;
+        margin:10px 10px 50px 10px;
+        .proyectos__card__imagen{
+            width: 300px;
+            border-radius: 10px;
+        }
+        .proyectos__card__titulo{
+            font-size: 24px;
+            margin: 0   5px   5px   5px;
+            text-align: center;
+        }
+        .proyectos__card__detalle{
+            margin: 0   8px   10px     8px;
+            text-align: center;
+        }
+    }
+}
+footer{
+    margin-top: 60px;
+}

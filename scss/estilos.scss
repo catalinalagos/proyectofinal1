@@ -1,0 +1,27 @@
+@import "estilos-index";
+@import "estilos-index-mobile";
+@import "imagenes";
+@import "estilos-proyectos";
+@import "estilos-proyectos-mobile";
+@import "estilos-sobre-mi";
+@import "estilos-sobre-mi-mobile";
+
+$principal:#463F3A;
+$secundario: #8A817C;
+$terciario:#BCB8B1;
+$acento:#E0AFA0;
+$fondo:#F4F3EE;
+body {
+    color: $principal;
+    background-color: $fondo;
+    max-width: 960px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+  }
+a{
+    text-decoration: none;
+    color: $principal;
+}

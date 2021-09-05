@@ -1,0 +1,47 @@
+.bloque-inicial{
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgb(188, 151, 151);
+    .sobre-mi__contenido{
+        display: flex;
+        flex-direction: column;
+    }
+    .celda__imagen{
+        width: 450px;
+        background-color: cornflowerblue;
+        padding-right: 40px;
+    }
+
+    .sobre-mi__titulo{
+        font-family: $f-especial;
+        font-size: 64px;
+        margin: 0px;
+    }
+    .sobre-mi__detalles{
+        max-width: 400px;
+    }
+    
+    
+}
+// Fuera del primer bloque
+.sobre-mi__extras{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(67, 67, 155);
+    
+    .sobre-mi__links,.sobre-mi__herramientas, .sobre-mi__contacto{
+        display: flex;
+        flex-direction: column;
+        background-color: darkgrey;
+        width: 30%;
+        li{
+            list-style: none;
+        }
+    }
+    
+}
+.sobre-mi__extras__titulo{
+    font-size: 24px;
+}
