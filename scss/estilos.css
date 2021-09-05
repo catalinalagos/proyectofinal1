@@ -427,7 +427,6 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
-    background-color: #bc9797;
   }
   .bloque-inicial .sobre-mi__contenido {
     display: -webkit-box;
@@ -440,7 +439,6 @@ footer {
   }
   .bloque-inicial .celda__imagen {
     width: 450px;
-    background-color: cornflowerblue;
     padding-right: 0px;
     margin-left: auto;
     margin-right: auto;
